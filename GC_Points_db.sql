@@ -1,0 +1,8 @@
+CREATE DATABASE points_db;
+USE points_db;
+
+CREATE TABLE points (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    x DOUBLE NOT NULL,
+    y DOUBLE NOT NULL
+);
